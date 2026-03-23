@@ -1,0 +1,1099 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Yanet Garcia — Fitness Coach · Model · Entrepreneur · Monterrey</title>
+<meta name="description" content="Yanet García — 15M Instagram. Certified Health Coach (IIN New York · Harvard). FitPlan elite trainer. Penthouse Mexico. FHM 100 Most Beautiful. The discipline built the body. Your transformation starts here."/>
+<meta property="og:title" content="Yanet Garcia — La Disciplina Es la Marca"/>
+<meta property="og:description" content="15M followers. Certified Health Nutritional Coach. FitPlan. Penthouse Mexico. FHM 100 Most Beautiful. Born Monterrey. The discipline is the brand."/>
+<meta property="og:image" content="https://raw.githubusercontent.com/middleAgedCoda/I-Am-Yanet-Garcia/main/yanet-garcia-Hero.jpg"/>
+<meta property="og:type" content="website"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:site" content="@IamYanetGarcia"/>
+<meta name="theme-color" content="#FFFFFF"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,300;1,400;1,700&family=Inter:wght@300;400;500;600;700&family=DM+Mono:wght@300;400;500&display=swap" rel="stylesheet"/>
+<style>
+/* ═══════════════════════════════════════════════════════
+   KURO DIGITAL — YANET GARCIA — "CLEAN POWER"
+
+   Identity: Yanet Cristal Garcia San Miguel
+   DOB: November 14, 1990 · Monterrey, Nuevo León, Mexico
+   "La Chica del Clima" → fitness entrepreneur → global brand
+
+   Palette:
+   --white   #FFFFFF   Clean canvas · confidence
+   --ghost   #F4F8FB   Section bg · barely-blue white
+   --ghost2  #EBF4F9   Deeper surface
+   --sky     #A7D8F0   Morning training light
+   --sky-dk  #5BA8C8   Depth, focus
+   --sky-dkr #2A7898   Authority
+   --gold    #E6C77B   Discipline · reward · warmth
+   --gold-dk #B89030   Earned accent
+   --ink     #0F0F0F   Pure authority
+   --ink2    #2A2A2A   Secondary
+   --ink3    #666666   Captions
+   --red     #C0392B   Power moments · Mexico flag accent
+
+   Fonts:
+   Playfair Display — editorial presence + italic warmth
+   Inter            — clean body, UI, labels
+   DM Mono          — numbers, stats, data
+
+   Image base:
+   https://raw.githubusercontent.com/middleAgedCoda/I-Am-Yanet-Garcia/main/
+   Spaces → %20 in URLs
+
+   Kuro Digital — kuro-digital-acid-lime.onrender.com
+═══════════════════════════════════════════════════════ */
+
+:root{
+  --w:   #FFFFFF;
+  --g:   #F4F8FB;
+  --g2:  #EBF4F9;
+  --g3:  #DFF0F8;
+  --sky: #A7D8F0; --sky-lt:#D4EDF8; --sky-dk:#5BA8C8; --sky-dkr:#2A7898;
+  --gold:#E6C77B; --gold-lt:#F0D898; --gold-dk:#B89030; --gold-dkr:#7A5C10;
+  --ink: #0F0F0F; --ink2:#2A2A2A; --ink3:#666666; --ink4:#999999;
+  --red: #C0392B; --red-lt:#E04030;
+  --line:rgba(15,15,15,.07); --line2:rgba(15,15,15,.12);
+  --sky-dim:rgba(167,216,240,.2); --sky-dim2:rgba(91,168,200,.12);
+  --gold-dim:rgba(230,199,123,.2);
+  --fd:'Playfair Display',serif; --fs:'Inter',sans-serif; --fm:'DM Mono',monospace;
+  --sw:min(1320px,100vw - 48px); --r:.25s ease;
+  --img:url('https://raw.githubusercontent.com/middleAgedCoda/I-Am-Yanet-Garcia/main/');
+}
+
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--w);color:var(--ink);font-family:var(--fs);cursor:none;overflow-x:hidden}
+body::before{content:'';position:fixed;inset:0;z-index:0;pointer-events:none;
+  background:radial-gradient(ellipse 70% 50% at 100% 0%,rgba(167,216,240,.05),transparent 70%),
+             radial-gradient(ellipse 50% 50% at 0% 100%,rgba(230,199,123,.04),transparent 70%)}
+
+/* ── CURSOR ── */
+#cur{width:7px;height:7px;background:var(--sky-dk);border-radius:50%;position:fixed;z-index:9997;pointer-events:none;transform:translate(-50%,-50%);transition:width .2s,height .2s,background .2s}
+#cur-r{width:26px;height:26px;border:1.5px solid rgba(91,168,200,.45);border-radius:50%;position:fixed;z-index:9996;pointer-events:none;transform:translate(-50%,-50%);transition:width .28s,height .28s,border-color .28s}
+body.hov #cur{width:13px;height:13px;background:var(--gold-dk)}
+body.hov #cur-r{width:46px;height:46px;border-color:rgba(184,144,48,.6)}
+@media(pointer:coarse){#cur,#cur-r{display:none}body{cursor:auto}}
+
+/* ── LOADER ── */
+#loader{position:fixed;inset:0;z-index:9000;background:var(--w);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;transition:opacity .9s,visibility .9s}
+#loader.out{opacity:0;visibility:hidden;pointer-events:none}
+.ll{font-family:var(--fm);font-size:.52rem;letter-spacing:.22em;text-transform:uppercase;color:var(--ink4);opacity:0;animation:rUp .6s ease forwards}
+.ll:nth-child(1){animation-delay:.1s}
+.ll:nth-child(2){animation-delay:.3s;color:var(--sky-dk)}
+.ll:nth-child(3){animation-delay:.5s;color:var(--gold-dk)}
+.ll-name{font-family:var(--fd);font-size:clamp(1.8rem,5vw,3rem);font-style:italic;color:var(--ink);opacity:0;animation:rUp .8s .65s ease forwards;letter-spacing:.03em}
+.ll-sub{font-family:var(--fm);font-size:.44rem;letter-spacing:.2em;text-transform:uppercase;color:var(--ink4);opacity:0;animation:rUp .6s .85s ease forwards}
+.lbar{width:200px;height:1px;background:var(--g2);overflow:hidden}
+.lbar-f{height:100%;width:0%;background:linear-gradient(to right,var(--sky-dk),var(--gold))}
+@keyframes rUp{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+
+/* ── LANG TOGGLE ── */
+#lang-bar{position:fixed;top:0;left:0;right:0;z-index:900;height:32px;background:var(--sky-dkr);display:flex;align-items:center;justify-content:flex-end;padding:0 40px;gap:0}
+.lt-btn{font-family:var(--fm);font-size:.46rem;letter-spacing:.16em;text-transform:uppercase;color:rgba(255,255,255,.6);background:none;border:none;padding:6px 12px;cursor:none;transition:color var(--r);border-right:1px solid rgba(255,255,255,.15)}
+.lt-btn:first-child{border-right:none}
+.lt-btn.act{color:var(--gold-lt);font-weight:500}
+.lt-btn:hover{color:rgba(255,255,255,.9)}
+.lt-flag{margin-right:5px;font-size:.6rem}
+
+/* ── NAV ── */
+#nav{position:fixed;top:32px;left:0;right:0;z-index:800;height:64px;padding:0 40px;display:flex;align-items:center;justify-content:space-between;transition:background .3s,border-bottom-color .3s,top .3s;border-bottom:1px solid transparent}
+#nav.stk{background:rgba(255,255,255,.94);backdrop-filter:blur(16px);border-bottom-color:var(--line2);top:0;box-shadow:0 2px 20px rgba(15,15,15,.06)}
+.nl{font-family:var(--fd);font-style:italic;font-size:1.3rem;color:var(--ink);text-decoration:none;letter-spacing:.02em}
+.nl span{color:var(--sky-dk)}
+.nls{display:flex;gap:28px;list-style:none}
+.nls a{font-family:var(--fs);font-size:.6rem;letter-spacing:.12em;text-transform:uppercase;color:var(--ink3);text-decoration:none;font-weight:500;transition:color var(--r)}
+.nls a:hover{color:var(--ink)}
+.ncta{font-family:var(--fs);font-size:.56rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--w);background:var(--sky-dkr);padding:10px 22px;text-decoration:none;transition:background var(--r)}
+.ncta:hover{background:var(--sky-dk)}
+.ham{display:none;background:none;border:none;cursor:none;padding:8px;flex-direction:column;gap:5px}
+.ham span{display:block;width:22px;height:1.5px;background:var(--ink)}
+#mob{display:none;position:fixed;inset:0;z-index:790;background:var(--w);padding:100px 40px 40px;flex-direction:column;gap:4px}
+#mob.open{display:flex}
+#mob a{font-family:var(--fd);font-style:italic;font-size:2.4rem;color:var(--ink);text-decoration:none;padding:12px 0;border-bottom:1px solid var(--line);transition:color var(--r)}
+#mob a:hover{color:var(--sky-dk)}
+@media(max-width:900px){.nls,.ncta{display:none}.ham{display:flex}}
+@media(max-width:600px){#nav{padding:0 24px}#lang-bar{padding:0 24px}}
+
+/* ── SECTION UTILS ── */
+.sec{padding:110px 40px;position:relative;overflow:hidden;z-index:1}
+.sec-w{background:var(--w)}
+.sec-g{background:var(--g)}
+.sec-g2{background:var(--g2)}
+.sec-dk{background:var(--sky-dkr)}
+.sec-ink{background:var(--ink)}
+.sw{max-width:var(--sw);margin:0 auto}
+
+.kk{font-family:var(--fm);font-size:.5rem;letter-spacing:.24em;text-transform:uppercase;color:var(--ink4);display:flex;align-items:center;gap:12px;margin-bottom:14px}
+.kk::before{content:'';width:24px;height:1px;background:var(--ink4)}
+.kk-s{color:var(--sky-dk)}.kk-s::before{background:var(--sky-dk)}
+.kk-g{color:var(--gold-dk)}.kk-g::before{background:var(--gold-dk)}
+.kk-w{color:rgba(255,255,255,.4)}.kk-w::before{background:rgba(255,255,255,.4)}
+
+.tt{font-family:var(--fd);font-size:clamp(2.8rem,5vw,5.5rem);font-weight:900;line-height:.88;color:var(--ink)}
+.tt em{font-style:italic;color:var(--sky-dk);font-weight:400}
+.tt-iv{color:var(--w)}.tt-iv em{color:var(--sky-lt)}
+.tt-gold em{color:var(--gold)}
+.ttsm{font-family:var(--fd);font-size:clamp(2.2rem,4vw,4rem);font-weight:700;line-height:.9;color:var(--ink)}
+.ttsm em{font-style:italic;color:var(--sky-dk);font-weight:400}
+
+.bb{font-family:var(--fs);font-size:.94rem;line-height:2;color:var(--ink3)}
+.bb strong{color:var(--ink);font-weight:600}
+.bb em{color:var(--sky-dk);font-style:italic}
+.bb-iv{font-family:var(--fs);font-size:.94rem;line-height:2;color:rgba(255,255,255,.55)}
+.bb-iv strong{color:var(--w)}
+
+.bt-sky{font-family:var(--fs);font-size:.58rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--w);background:var(--sky-dkr);padding:14px 30px;text-decoration:none;display:inline-block;border:2px solid var(--sky-dkr);transition:all var(--r)}
+.bt-sky:hover{background:var(--sky-dk);border-color:var(--sky-dk)}
+.bt-gold{font-family:var(--fs);font-size:.58rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--ink);background:var(--gold);padding:14px 30px;text-decoration:none;display:inline-block;border:2px solid var(--gold);transition:all var(--r)}
+.bt-gold:hover{background:var(--gold-lt);border-color:var(--gold-lt)}
+.bt-out{font-family:var(--fs);font-size:.58rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--ink);background:transparent;padding:14px 30px;text-decoration:none;display:inline-block;border:2px solid var(--line2);transition:all var(--r)}
+.bt-out:hover{border-color:var(--ink);background:var(--ink);color:var(--w)}
+.bt-out-iv{font-family:var(--fs);font-size:.58rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--w);background:transparent;padding:14px 30px;text-decoration:none;display:inline-block;border:2px solid rgba(255,255,255,.3);transition:all var(--r)}
+.bt-out-iv:hover{border-color:var(--w);background:var(--w);color:var(--ink)}
+
+.rv{opacity:0;transform:translateY(20px);transition:opacity .9s ease,transform .9s ease}
+.rvl{opacity:0;transform:translateX(-20px);transition:opacity .9s ease,transform .9s ease}
+.rvr{opacity:0;transform:translateX(20px);transition:opacity .9s ease,transform .9s ease}
+.rv.on,.rvl.on,.rvr.on{opacity:1;transform:none}
+
+.g2{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:start}
+.g2c{align-items:center}
+@media(max-width:900px){.g2{grid-template-columns:1fr;gap:40px}}
+@media(max-width:600px){.sec{padding:70px 24px}}
+
+/* bilingual visibility */
+body.es .en-only{display:none!important}
+body.en .es-only{display:none!important}
+
+/* ══════════════════════════════════════════
+   HERO
+══════════════════════════════════════════ */
+#hero{min-height:100vh;background:var(--w);position:relative;display:grid;grid-template-columns:1fr 1fr;overflow:hidden;margin-top:96px}
+#hero::before{content:'';position:absolute;inset:0;background:linear-gradient(105deg,var(--w) 50%,var(--g2) 50%);z-index:0}
+
+.hero-left{padding:100px 60px 80px 40px;position:relative;z-index:2;display:flex;flex-direction:column;justify-content:center}
+.hero-right{position:relative;z-index:2;overflow:hidden}
+.hero-img{width:100%;height:100%;min-height:100vh;object-fit:cover;object-position:center top;display:block;filter:contrast(1.05) saturate(1.05)}
+
+/* vertical accent bar */
+.hero-left::after{content:'';position:absolute;top:15%;bottom:15%;right:0;width:2px;background:linear-gradient(to bottom,transparent,var(--sky),var(--gold),transparent)}
+
+.hero-eyebrow{font-family:var(--fm);font-size:.5rem;letter-spacing:.28em;text-transform:uppercase;color:var(--sky-dk);margin-bottom:18px;display:flex;align-items:center;gap:14px;opacity:0;animation:rUp .8s .4s ease forwards}
+.hero-eyebrow::before{content:'';width:36px;height:1.5px;background:var(--sky-dk)}
+
+.hero-h1{font-family:var(--fd);font-size:clamp(4rem,6vw,7rem);font-weight:900;line-height:.85;letter-spacing:-.02em;color:var(--ink);opacity:0;animation:rUp .9s .6s ease forwards;margin-bottom:4px}
+.hero-h1 em{display:block;font-style:italic;font-weight:400;color:var(--sky-dk);font-size:.65em}
+.hero-sub-line{font-family:var(--fd);font-style:italic;font-size:clamp(1rem,1.8vw,1.4rem);color:var(--ink3);margin-bottom:28px;opacity:0;animation:rUp .8s .8s ease forwards;line-height:1.6}
+.hero-sub-line strong{color:var(--ink);font-style:normal}
+
+.hero-tags{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:32px;opacity:0;animation:rUp .8s 1s ease forwards}
+.htag{font-family:var(--fm);font-size:.44rem;letter-spacing:.14em;text-transform:uppercase;padding:6px 12px;border:1px solid var(--line2);color:var(--ink3);background:var(--g)}
+.htag-sky{border-color:var(--sky);background:var(--sky-dim);color:var(--sky-dkr)}
+.htag-gold{border-color:var(--gold);background:var(--gold-dim);color:var(--gold-dkr)}
+
+.hero-btns{display:flex;gap:12px;flex-wrap:wrap;opacity:0;animation:rUp .8s 1.1s ease forwards}
+
+/* Credentials pill — right column floating */
+.hero-cred-bar{position:absolute;bottom:0;left:0;right:0;z-index:3;background:rgba(255,255,255,.92);backdrop-filter:blur(16px);border-top:2px solid var(--sky);display:grid;grid-template-columns:repeat(4,1fr);opacity:0;animation:rUp .9s 1.3s ease forwards}
+.hcb{padding:20px 24px;border-right:1px solid var(--line);cursor:default;transition:background var(--r)}
+.hcb:last-child{border-right:none}
+.hcb:hover{background:var(--sky-dim)}
+.hcbv{font-family:var(--fd);font-size:1.8rem;font-weight:900;color:var(--sky-dkr);line-height:1}
+.hcbl{font-family:var(--fm);font-size:.42rem;letter-spacing:.12em;text-transform:uppercase;color:var(--ink4);margin-top:4px}
+
+@media(max-width:900px){
+  #hero{grid-template-columns:1fr;margin-top:80px}
+  #hero::before{background:var(--w)}
+  .hero-left{padding:80px 24px 50px;order:2}
+  .hero-right{min-height:60vw;order:1}
+  .hero-img{min-height:60vw}
+  .hero-left::after{display:none}
+  .hero-cred-bar{grid-template-columns:1fr 1fr}
+}
+
+/* ── TICKER ── */
+.ticker{background:var(--sky-dkr);overflow:hidden;position:relative;z-index:2}
+.ttrack{display:flex;width:max-content;animation:tScr 40s linear infinite}
+.ti{font-family:var(--fm);font-size:.48rem;letter-spacing:.18em;text-transform:uppercase;color:rgba(255,255,255,.75);padding:10px 22px;white-space:nowrap;flex-shrink:0}
+.tsep{color:var(--gold);padding:0 8px}
+@keyframes tScr{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
+
+/* ══════════════════════════════════════════
+   ORIGIN — LA HISTORIA
+══════════════════════════════════════════ */
+#origin .og{display:grid;grid-template-columns:1.1fr 1fr;gap:100px;align-items:start}
+.og-imgs{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.og-img{overflow:hidden;position:relative}
+.og-img img{width:100%;display:block;object-fit:cover;filter:contrast(1.06) saturate(1.04);transition:transform .8s}
+.og-img:hover img{transform:scale(1.04)}
+.og-img.tall{grid-row:span 2}
+.og-img.tall img{height:100%;min-height:400px}
+.og-img-short img{height:200px}
+.og-badge{position:absolute;bottom:0;left:0;right:0;background:rgba(15,15,15,.75);backdrop-filter:blur(8px);padding:8px 12px;font-family:var(--fm);font-size:.42rem;letter-spacing:.14em;text-transform:uppercase;color:rgba(255,255,255,.7)}
+
+.pq{font-family:var(--fd);font-style:italic;font-size:clamp(1.1rem,2vw,1.55rem);color:var(--ink);line-height:1.65;padding-left:20px;border-left:3px solid var(--sky);margin:24px 0}
+.pq em{color:var(--sky-dk);font-style:normal}
+
+.otl{display:flex;flex-direction:column}
+.tli{display:flex;gap:16px;padding:13px 0;border-bottom:1px solid var(--line);transition:background var(--r)}
+.tli:last-child{border-bottom:none}
+.tli:hover{background:var(--sky-dim)}
+.tly{font-family:var(--fm);font-size:.44rem;letter-spacing:.1em;color:var(--sky-dk);flex-shrink:0;width:44px;padding-top:3px}
+.tld{width:6px;height:6px;border:1.5px solid var(--sky);flex-shrink:0;border-radius:50%;margin-top:5px;transition:all var(--r)}
+.tli:hover .tld{background:var(--sky-dk);border-color:var(--sky-dk)}
+.tlh{font-family:var(--fs);font-size:.88rem;font-weight:600;color:var(--ink)}
+.tlb{font-family:var(--fs);font-size:.8rem;color:var(--ink3);line-height:1.85;margin-top:3px}
+
+@media(max-width:900px){#origin .og{grid-template-columns:1fr;gap:40px}.og-imgs{grid-template-columns:1fr 1fr}}
+
+/* ══════════════════════════════════════════
+   TRANSFORMATION PHILOSOPHY
+══════════════════════════════════════════ */
+#philosophy{background:var(--ink);position:relative;overflow:hidden}
+#philosophy::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse 60% 60% at 80% 50%,rgba(167,216,240,.06),transparent)}
+.phil-grid{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center}
+.phil-left{}
+.big-quote{font-family:var(--fd);font-style:italic;font-size:clamp(1.6rem,3.5vw,2.8rem);color:var(--w);line-height:1.4;margin-top:20px}
+.big-quote em{color:var(--sky);font-style:normal}
+.bq-attr{font-family:var(--fm);font-size:.48rem;letter-spacing:.2em;text-transform:uppercase;color:rgba(255,255,255,.3);margin-top:16px}
+.phil-pillars{display:grid;grid-template-columns:1fr 1fr;gap:1px;margin-top:0}
+.pp{background:rgba(255,255,255,.03);padding:28px 22px;border:1px solid rgba(255,255,255,.05);transition:background var(--r);cursor:default}
+.pp:hover{background:rgba(167,216,240,.05);border-color:rgba(167,216,240,.12)}
+.pp-icon{font-size:1.5rem;display:block;margin-bottom:12px}
+.pp-h{font-family:var(--fd);font-style:italic;font-size:1rem;color:var(--w);margin-bottom:7px}
+.pp-b{font-family:var(--fs);font-size:.78rem;color:rgba(255,255,255,.4);line-height:1.85}
+.pp-b strong{color:rgba(255,255,255,.75)}
+.stat-row{display:flex;gap:0;margin-top:28px;border-top:1px solid rgba(255,255,255,.06);border-bottom:1px solid rgba(255,255,255,.06)}
+.sr{flex:1;padding:20px 16px;border-right:1px solid rgba(255,255,255,.06);cursor:default}
+.sr:last-child{border-right:none}
+.sr-v{font-family:var(--fd);font-size:1.8rem;font-weight:900;color:var(--gold);line-height:1}
+.sr-l{font-family:var(--fm);font-size:.42rem;letter-spacing:.12em;text-transform:uppercase;color:rgba(255,255,255,.3);margin-top:4px}
+@media(max-width:900px){.phil-grid{grid-template-columns:1fr;gap:40px}.phil-pillars{grid-template-columns:1fr}}
+
+/* ══════════════════════════════════════════
+   TRAINING PROGRAMS
+══════════════════════════════════════════ */
+#programs{background:var(--g)}
+.prog-intro{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:end;margin-bottom:48px}
+.prog-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px}
+.pgc{background:var(--w);border:1px solid var(--line);border-top:3px solid transparent;padding:32px 26px;transition:all var(--r);cursor:default;position:relative;overflow:hidden}
+.pgc::after{content:'';position:absolute;inset:0;background:linear-gradient(135deg,var(--sky-dim),transparent 60%);opacity:0;transition:opacity var(--r)}
+.pgc:hover{border-top-color:var(--sky-dk);box-shadow:0 8px 32px rgba(91,168,200,.12)}
+.pgc:hover::after{opacity:1}
+.pgc-feat{border-top-color:var(--gold)}
+.pgc-feat::after{background:linear-gradient(135deg,var(--gold-dim),transparent 60%);opacity:.5}
+.pgc-feat:hover{border-top-color:var(--gold-dk);box-shadow:0 8px 32px rgba(184,144,48,.15)}
+.pgc-tag{font-family:var(--fm);font-size:.44rem;letter-spacing:.16em;text-transform:uppercase;color:var(--sky-dk);margin-bottom:14px;display:flex;align-items:center;gap:8px}
+.pgc-feat .pgc-tag{color:var(--gold-dk)}
+.pgc-tag::before{content:'';width:16px;height:1.5px;background:currentColor}
+.pgc-img{width:100%;height:200px;object-fit:cover;object-position:center top;display:block;margin-bottom:20px;filter:contrast(1.05) saturate(1.06);transition:transform .7s}
+.pgc:hover .pgc-img{transform:scale(1.03)}
+.pgc-h{font-family:var(--fd);font-style:italic;font-size:1.2rem;font-weight:700;color:var(--ink);margin-bottom:10px;position:relative;z-index:1}
+.pgc-b{font-family:var(--fs);font-size:.8rem;color:var(--ink3);line-height:1.9;position:relative;z-index:1}
+.pgc-b strong{color:var(--ink)}
+.pgc-meta{display:flex;gap:16px;margin-top:16px;padding-top:14px;border-top:1px solid var(--line);position:relative;z-index:1}
+.pgc-m{font-family:var(--fm);font-size:.44rem;letter-spacing:.1em;text-transform:uppercase;color:var(--ink4)}
+.pgc-m span{display:block;color:var(--ink2);font-size:.52rem;margin-top:2px}
+.pgc-cta{margin-top:20px;display:block;font-family:var(--fs);font-size:.58rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--sky-dkr);text-decoration:none;display:flex;align-items:center;gap:8px;transition:gap var(--r);position:relative;z-index:1}
+.pgc-cta:hover{gap:14px}
+.pgc-feat .pgc-cta{color:var(--gold-dkr)}
+.fitplan-bar{background:var(--sky-dkr);padding:24px 32px;display:flex;align-items:center;justify-content:space-between;gap:24px;margin-top:1px;flex-wrap:wrap}
+.fb-left{display:flex;align-items:center;gap:14px}
+.fb-icon{font-size:1.8rem}
+.fb-h{font-family:var(--fd);font-style:italic;font-size:1.1rem;color:var(--w)}
+.fb-s{font-family:var(--fm);font-size:.44rem;letter-spacing:.14em;text-transform:uppercase;color:rgba(255,255,255,.4);margin-top:3px}
+@media(max-width:900px){.prog-intro{grid-template-columns:1fr;gap:24px}.prog-grid{grid-template-columns:1fr}}
+
+/* ══════════════════════════════════════════
+   CREDENTIALS WALL
+══════════════════════════════════════════ */
+#creds{background:var(--w)}
+.cred-intro{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:end;margin-bottom:48px}
+.cred-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1px}
+.crc{background:var(--g);padding:28px 22px;border:1px solid var(--line);border-bottom:3px solid transparent;transition:all var(--r);cursor:default}
+.crc:hover{border-bottom-color:var(--sky-dk);background:var(--sky-dim);box-shadow:0 4px 20px rgba(91,168,200,.1)}
+.cricon{font-size:1.4rem;display:block;margin-bottom:12px}
+.crn{font-family:var(--fd);font-style:italic;font-size:.96rem;font-weight:700;color:var(--ink);line-height:1.3;margin-bottom:7px}
+.crd{font-family:var(--fs);font-size:.78rem;color:var(--ink3);line-height:1.85}
+.crd strong{color:var(--ink)}
+.cry{font-family:var(--fm);font-size:.42rem;letter-spacing:.12em;text-transform:uppercase;color:var(--sky-dk);margin-top:10px}
+@media(max-width:1100px){.cred-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:900px){.cred-intro{grid-template-columns:1fr;gap:24px}}
+@media(max-width:480px){.cred-grid{grid-template-columns:1fr}}
+
+/* ══════════════════════════════════════════
+   GALLERY — IMAGE CAROUSELS
+══════════════════════════════════════════ */
+#gallery{background:var(--ink);padding:80px 0;overflow:hidden}
+.gal-h{max-width:var(--sw);margin:0 auto 36px;padding:0 40px;display:flex;justify-content:space-between;align-items:end;flex-wrap:wrap;gap:16px}
+.gal-rows{display:flex;flex-direction:column;gap:8px}
+.gal-row{overflow:hidden;position:relative}
+.gal-row::before,.gal-row::after{content:'';position:absolute;top:0;bottom:0;width:120px;z-index:3;pointer-events:none}
+.gal-row::before{left:0;background:linear-gradient(to right,var(--ink),transparent)}
+.gal-row::after{right:0;background:linear-gradient(to left,var(--ink),transparent)}
+.gal-track-a{display:flex;gap:8px;width:max-content;animation:galL 46s linear infinite}
+.gal-track-b{display:flex;gap:8px;width:max-content;animation:galL 38s linear infinite reverse}
+.gal-row:hover .gal-track-a,.gal-row:hover .gal-track-b{animation-play-state:paused}
+@keyframes galL{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
+.gal-card{flex-shrink:0;overflow:hidden;position:relative}
+.gal-card.pt{width:220px;height:300px}
+.gal-card.sq{width:300px;height:300px}
+.gal-card.wd{width:380px;height:300px}
+.gal-card img{width:100%;height:100%;object-fit:cover;object-position:center top;display:block;filter:brightness(.85) contrast(1.08) saturate(1.05);transition:filter .5s,transform .6s}
+.gal-row:hover .gal-card img,.gal-card:hover img{filter:brightness(.95) contrast(1.04) saturate(1.1);transform:scale(1.04)}
+@media(max-width:600px){.gal-h{padding:0 24px}}
+
+/* ══════════════════════════════════════════
+   WORKOUT SECTION
+══════════════════════════════════════════ */
+#workout{background:var(--g2)}
+.wk-grid{display:grid;grid-template-columns:1.2fr 1fr;gap:100px;align-items:center}
+.wk-img-stack{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.wk-img{overflow:hidden}
+.wk-img img{width:100%;display:block;height:260px;object-fit:cover;object-position:center top;filter:contrast(1.08) saturate(1.06);transition:transform .7s}
+.wk-img:hover img{transform:scale(1.04)}
+.wk-img.span2{grid-column:span 2}
+.wk-img.span2 img{height:180px}
+.wk-quote-bar{background:var(--sky-dkr);padding:18px 22px;margin-top:8px;display:flex;align-items:center;gap:12px}
+.wqb-text{font-family:var(--fd);font-style:italic;font-size:1rem;color:var(--w)}
+.wqb-text em{color:var(--gold-lt);font-style:normal}
+.wk-right{display:flex;flex-direction:column;gap:20px}
+.wk-focus-list{display:flex;flex-direction:column;gap:0}
+.wkf{display:flex;align-items:center;gap:16px;padding:14px 0;border-bottom:1px solid var(--line);transition:background var(--r);cursor:default}
+.wkf:last-child{border-bottom:none}
+.wkf:hover{background:var(--sky-dim)}
+.wkf-n{font-family:var(--fs);font-size:.88rem;font-weight:600;color:var(--ink);flex:1}
+.wkf-bar{flex:2;height:4px;background:var(--line);position:relative}
+.wkf-fill{position:absolute;top:0;left:0;height:100%;background:var(--sky-dk);transition:width 1.2s ease}
+.wkf-pct{font-family:var(--fm);font-size:.48rem;color:var(--sky-dk);width:28px;text-align:right}
+@media(max-width:900px){.wk-grid{grid-template-columns:1fr;gap:40px}}
+
+/* ══════════════════════════════════════════
+   PRESS WALL
+══════════════════════════════════════════ */
+#press{background:var(--w)}
+.press-logo-strip{overflow:hidden;position:relative;margin:40px 0;padding:20px 0}
+.press-logo-strip::before,.press-logo-strip::after{content:'';position:absolute;top:0;bottom:0;width:80px;z-index:2;pointer-events:none}
+.press-logo-strip::before{left:0;background:linear-gradient(to right,var(--w),transparent)}
+.press-logo-strip::after{right:0;background:linear-gradient(to left,var(--w),transparent)}
+.pltrack{display:flex;gap:1px;width:max-content;animation:plScr 28s linear infinite}
+@keyframes plScr{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
+.pllogo{flex:0 0 150px;height:56px;background:var(--g);border:1px solid var(--line);display:flex;align-items:center;justify-content:center;font-family:var(--fd);font-style:italic;font-size:.9rem;color:var(--ink4);transition:all var(--r);cursor:default}
+.pllogo:hover{background:var(--sky-dim);color:var(--ink)}
+.press-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:1px}
+.pcard{background:var(--g);padding:28px 24px;border:1px solid var(--line);border-left:3px solid transparent;transition:all var(--r);cursor:default}
+.pcard:hover{border-left-color:var(--sky-dk);background:var(--sky-dim)}
+.ppub{font-family:var(--fm);font-size:.44rem;letter-spacing:.14em;text-transform:uppercase;color:var(--sky-dk);margin-bottom:9px}
+.phl{font-family:var(--fd);font-style:italic;font-size:1rem;color:var(--ink);line-height:1.4;margin-bottom:8px}
+.pbdy{font-family:var(--fs);font-size:.78rem;color:var(--ink3);line-height:1.9}
+@media(max-width:900px){.press-cards{grid-template-columns:1fr}}
+
+/* ══════════════════════════════════════════
+   VIRAL MOMENT FEATURE
+══════════════════════════════════════════ */
+#viral{background:var(--sky-dkr);padding:80px 40px;position:relative;overflow:hidden}
+#viral::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse 80% 80% at 50% 50%,rgba(255,255,255,.04),transparent)}
+.viral-inner{max-width:var(--sw);margin:0 auto;display:grid;grid-template-columns:1fr 1.2fr;gap:80px;align-items:center}
+.viral-left{}
+.viral-number{font-family:var(--fd);font-size:clamp(4rem,10vw,9rem);font-weight:900;color:rgba(255,255,255,.08);line-height:1;letter-spacing:-.03em;margin-bottom:-20px}
+.viral-stat{font-family:var(--fd);font-size:clamp(2.5rem,5vw,5rem);font-weight:900;color:var(--w);line-height:1}
+.viral-stat em{color:var(--gold);font-style:italic}
+.viral-label{font-family:var(--fm);font-size:.52rem;letter-spacing:.2em;text-transform:uppercase;color:rgba(255,255,255,.5);margin-top:10px}
+.viral-right{}
+.viral-cards{display:flex;flex-direction:column;gap:12px}
+.vc{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.1);padding:20px 22px;transition:background var(--r);cursor:default}
+.vc:hover{background:rgba(255,255,255,.1)}
+.vc-label{font-family:var(--fm);font-size:.44rem;letter-spacing:.14em;text-transform:uppercase;color:rgba(255,255,255,.35);margin-bottom:6px}
+.vc-val{font-family:var(--fd);font-style:italic;font-size:1rem;color:var(--w)}
+@media(max-width:900px){.viral-inner{grid-template-columns:1fr;gap:40px}}
+
+/* ══════════════════════════════════════════
+   PARTNER / CONTACT
+══════════════════════════════════════════ */
+#partner{background:var(--g);padding:0}
+.psplit{display:grid;grid-template-columns:1fr 1fr}
+.pleft{padding:100px 60px 100px 40px;background:var(--w);position:relative}
+.pleft::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(to right,var(--sky),var(--gold))}
+.pright{padding:100px 40px 100px 60px;background:var(--sky-dkr)}
+.pform{display:flex;flex-direction:column;gap:12px}
+.pflbl{font-family:var(--fm);font-size:.46rem;letter-spacing:.14em;text-transform:uppercase;color:var(--ink3)}
+.pflbl-iv{font-family:var(--fm);font-size:.46rem;letter-spacing:.14em;text-transform:uppercase;color:rgba(255,255,255,.4)}
+.pfinp{background:var(--g);border:1px solid var(--line2);padding:11px 14px;font-family:var(--fs);font-size:.88rem;color:var(--ink);outline:none;width:100%;transition:border-color var(--r)}
+.pfinp:focus{border-color:var(--sky-dk)}
+.pfinp::placeholder{color:var(--ink4)}
+.pfinp-iv{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);padding:11px 14px;font-family:var(--fs);font-size:.82rem;color:rgba(255,255,255,.85);outline:none;width:100%;transition:border-color var(--r)}
+.pfinp-iv:focus{border-color:rgba(255,255,255,.4)}
+.pfinp-iv::placeholder{color:rgba(255,255,255,.25)}
+textarea.pfinp,textarea.pfinp-iv{resize:vertical;min-height:88px}
+.pcontacts{display:flex;flex-direction:column;gap:16px;margin-top:28px}
+.pci{padding-bottom:14px;border-bottom:1px solid rgba(255,255,255,.08)}
+.pci:last-child{border-bottom:none}
+.pcil{font-family:var(--fm);font-size:.44rem;letter-spacing:.14em;text-transform:uppercase;color:rgba(255,255,255,.35);margin-bottom:5px}
+.pciv{font-family:var(--fd);font-style:italic;font-size:1rem;color:var(--w)}
+.pcis{font-family:var(--fs);font-size:.78rem;color:rgba(255,255,255,.4);margin-top:3px;line-height:1.8}
+@media(max-width:900px){.psplit{grid-template-columns:1fr}.pleft,.pright{padding:70px 32px}}
+
+/* FOOTER */
+footer{background:var(--ink2);padding:52px 40px 28px;border-top:1px solid var(--line)}
+.fi{max-width:var(--sw);margin:0 auto}
+.ftop{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:56px;padding-bottom:36px;border-bottom:1px solid rgba(255,255,255,.06);margin-bottom:24px}
+.flogo{font-family:var(--fd);font-style:italic;font-size:1.4rem;color:var(--w);margin-bottom:10px}
+.fdesc{font-family:var(--fs);font-size:.78rem;color:rgba(255,255,255,.3);line-height:1.9}
+.fcolh{font-family:var(--fm);font-size:.44rem;letter-spacing:.16em;text-transform:uppercase;color:rgba(255,255,255,.2);margin-bottom:12px}
+.fcol a{display:block;font-family:var(--fd);font-style:italic;font-size:.88rem;color:rgba(255,255,255,.3);text-decoration:none;margin-bottom:7px;transition:color var(--r)}
+.fcol a:hover{color:var(--sky)}
+.fbot{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px}
+.fcopy{font-family:var(--fm);font-size:.44rem;letter-spacing:.1em;color:rgba(255,255,255,.2)}
+.fkuro{font-family:var(--fm);font-size:.44rem;letter-spacing:.1em;text-transform:uppercase;color:rgba(255,255,255,.2);text-decoration:none;transition:color var(--r)}
+.fkuro:hover{color:var(--gold)}
+@media(max-width:900px){.ftop{grid-template-columns:1fr 1fr;gap:28px}}
+@media(max-width:480px){.ftop{grid-template-columns:1fr}.fbot{flex-direction:column;align-items:flex-start}.sec{padding:70px 24px}#nav,#lang-bar{padding-left:24px;padding-right:24px}}
+</style>
+</head>
+<body class="en">
+
+<div id="cur"></div><div id="cur-r"></div>
+
+<!-- LOADER -->
+<div id="loader">
+  <div class="ll">// loading yanetgarcia.build</div>
+  <div class="ll">Monterrey · New York · Los Angeles · Global</div>
+  <div class="ll">15M · FitPlan · IIN · Harvard · Penthouse · FHM</div>
+  <div class="ll-name">Yanet García</div>
+  <div class="ll-sub">La Chica del Clima → La Marca Global</div>
+  <div class="lbar"><div class="lbar-f" id="lf"></div></div>
+</div>
+
+<!-- LANG BAR -->
+<div id="lang-bar">
+  <button class="lt-btn act" id="btn-en" onclick="setLang('en')"><span class="lt-flag">🇺🇸</span> EN</button>
+  <button class="lt-btn" id="btn-es" onclick="setLang('es')"><span class="lt-flag">🇲🇽</span> ES</button>
+</div>
+
+<!-- NAV -->
+<nav id="nav">
+  <a href="#" class="nl">Yanet<span>.</span></a>
+  <ul class="nls">
+    <li><a href="#origin" class="en-only">Story</a><a href="#origin" class="es-only">Historia</a></li>
+    <li><a href="#programs" class="en-only">Programs</a><a href="#programs" class="es-only">Programas</a></li>
+    <li><a href="#creds" class="en-only">Credentials</a><a href="#creds" class="es-only">Credenciales</a></li>
+    <li><a href="#gallery" class="en-only">Gallery</a><a href="#gallery" class="es-only">Galería</a></li>
+    <li><a href="#press" class="en-only">Press</a><a href="#press" class="es-only">Prensa</a></li>
+  </ul>
+  <a href="#partner" class="ncta en-only">Work Together</a>
+  <a href="#partner" class="ncta es-only">Trabajemos</a>
+  <button class="ham" id="hbtn"><span></span><span></span><span></span></button>
+</nav>
+<div id="mob">
+  <a href="#origin"   onclick="document.getElementById('mob').classList.remove('open')">Story / Historia</a>
+  <a href="#programs" onclick="document.getElementById('mob').classList.remove('open')">Programs / Programas</a>
+  <a href="#creds"    onclick="document.getElementById('mob').classList.remove('open')">Credentials</a>
+  <a href="#gallery"  onclick="document.getElementById('mob').classList.remove('open')">Gallery / Galería</a>
+  <a href="#press"    onclick="document.getElementById('mob').classList.remove('open')">Press / Prensa</a>
+  <a href="#partner"  onclick="document.getElementById('mob').classList.remove('open')">Contact ↗</a>
+</div>
+
+<!-- ═══════════ HERO ═══════════ -->
+<section id="hero">
+  <div class="hero-left rv">
+    <div class="hero-eyebrow en-only">Monterrey, Mexico · Born November 14, 1990</div>
+    <div class="hero-eyebrow es-only">Monterrey, México · 14 de Noviembre, 1990</div>
+
+    <h1 class="hero-h1">
+      <em class="en-only">The discipline</em>
+      <em class="es-only">La disciplina</em>
+      Yanet<br/>García.
+    </h1>
+
+    <p class="hero-sub-line en-only">
+      From <strong>Televisa weather presenter</strong> to one of the world's most recognized fitness figures.<br/>
+      The body was built — not inherited. <strong>The discipline is the brand.</strong>
+    </p>
+    <p class="hero-sub-line es-only">
+      De presentadora del clima en <strong>Televisa Monterrey</strong> a figura fitness global.<br/>
+      El cuerpo se construyó — no nació así. <strong>La disciplina es la marca.</strong>
+    </p>
+
+    <div class="hero-tags">
+      <span class="htag-sky">15M+ Instagram</span>
+      <span class="htag-sky">FitPlan Elite Trainer</span>
+      <span class="htag-gold">IIN Certified Health Coach</span>
+      <span class="htag-gold">Harvard Nutrition</span>
+      <span class="htag">FHM 100 Most Beautiful</span>
+      <span class="htag">Penthouse Mexico</span>
+    </div>
+
+    <div class="hero-btns">
+      <a href="#programs" class="bt-sky en-only">Start Your Transformation</a>
+      <a href="#programs" class="bt-sky es-only">Empieza Tu Transformación</a>
+      <a href="#partner"  class="bt-out en-only">Work Together</a>
+      <a href="#partner"  class="bt-out es-only">Trabajemos Juntos</a>
+    </div>
+  </div>
+
+  <div class="hero-right">
+    <img class="hero-img"
+      src="https://raw.githubusercontent.com/middleAgedCoda/I-Am-Yanet-Garcia/main/yanet-garcia-Hero.jpg"
+      alt="Yanet Garcia"
+      onerror="this.src='https://raw.githubusercontent.com/middleAgedCoda/I-Am-Yanet-Garcia/main/Yanet%20Garcia%20(1).jpg'"/>
+    <div class="hero-cred-bar rv">
+      <div class="hcb"><div class="hcbv">15M+</div><div class="hcbl">Instagram Followers</div></div>
+      <div class="hcb"><div class="hcbv">500K+</div><div class="hcbl">OnlyFans Subscribers</div></div>
+      <div class="hcb"><div class="hcbv">1M+</div><div class="hcbl">YouTube Subscribers</div></div>
+      <div class="hcb"><div class="hcbv">46M+</div><div class="hcbl">Viral Clip Views (Ozzy Man)</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- TICKER -->
+<div class="ticker">
+  <div class="ttrack">
+    <span class="ti">La Chica del Clima<span class="tsep">✦</span></span>
+    <span class="ti">15M+ Instagram · @iamyanetgarcia<span class="tsep">✦</span></span>
+    <span class="ti">FitPlan Elite Trainer · Beautiful You · Fit at Home<span class="tsep">✦</span></span>
+    <span class="ti">IIN Certified Health Coach · New York<span class="tsep">✦</span></span>
+    <span class="ti">Harvard Nutrition Conferences<span class="tsep">✦</span></span>
+    <span class="ti">FHM 100 Most Beautiful Women in the World · 2017<span class="tsep">✦</span></span>
+    <span class="ti">Penthouse Mexico Cover · 2018 &amp; 2025<span class="tsep">✦</span></span>
+    <span class="ti">Sharknado 5: Global Swarming · Bellezonismo · You Have Eggs Sofia (2025)<span class="tsep">✦</span></span>
+    <span class="ti">Yanet García Models · Santiago, Nuevo León<span class="tsep">✦</span></span>
+    <span class="ti">Televisa Monterrey · 2014–2019<span class="tsep">✦</span></span>
+    <span class="ti">Socialiteen Healthy Influencer of the Year 2021<span class="tsep">✦</span></span>
+    <span class="ti">La Chica del Clima<span class="tsep">✦</span></span>
+    <span class="ti">15M+ Instagram · @iamyanetgarcia<span class="tsep">✦</span></span>
+    <span class="ti">FitPlan Elite Trainer · Beautiful You · Fit at Home<span class="tsep">✦</span></span>
+    <span class="ti">IIN Certified Health Coach · New York<span class="tsep">✦</span></span>
+    <span class="ti">Harvard Nutrition Conferences<span class="tsep">✦</span></span>
+    <span class="ti">FHM 100 Most Beautiful Women in the World · 2017<span class="tsep">✦</span></span>
+    <span class="ti">Penthouse Mexico Cover · 2018 &amp; 2025<span class="tsep">✦</span></span>
+    <span class="ti">Sharknado 5: Global Swarming · Bellezonismo · You Have Eggs Sofia (2025)<span class="tsep">✦</span></span>
+    <span class="ti">Yanet García Models · Santiago, Nuevo León<span class="tsep">✦</span></span>
+    <span class="ti">Televisa Monterrey · 2014–2019<span class="tsep">✦</span></span>
+    <span class="ti">Socialiteen Healthy Influencer of the Year 2021<span class="tsep">✦</span></span>
+  </div>
+</div>
+
+<!-- ═══════════ ORIGIN — LA HISTORIA ═══════════ -->
+<section id="origin" class="sec sec-w">
+  <div class="sw">
+    <div class="og">
+      <div class="rvl">
+        <div class="og-imgs">
+          <!-- Tall portrait left -->
+          <div class="og-img tall">
+            <img src="https://raw.githubusercontent.com/middleAgedCoda/I-Am-Yanet-Garcia/main/Yanet%20Garcia%20(1).jpg"
+              alt="Yanet Garcia portrait"
+              onerror="this.src='https://raw.githubusercontent.com/middleAgedCoda/I-Am-Yanet-Garcia/main/Yanet%20Garcia%202.jpg'"/>
+            <div class="og-badge">@iamyanetgarcia · Monterrey, México</div>
+          </div>
+          <!-- Right top and bottom -->
+          <div class="og-img og-img-short">
+            <img src="https://raw.githubusercontent.com/middleAgedCoda/I-Am-Yanet-Garcia/main/Yanet%20Garcia%20Office%20wear.jpg"
+              alt="Yanet Garcia office"
+              onerror="this.style.background='#EBF4F9'"/>
+            <div class="og-badge en-only">Entrepreneur</div>
+            <div class="og-badge es-only">Empresaria</div>
+          </div>
+          <div class="og-img og-img-short">
+            <img src="https://raw.githubusercontent.com/middleAgedCoda/I-Am-Yanet-Garcia/main/yanet-garcia-lux.jpg"
+              alt="Yanet Garcia luxury"
+              onerror="this.style.background='#D4EDF8'"/>
+            <div class="og-badge en-only">La Marca Global</div>
+            <div class="og-badge es-only">La Marca Global</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="rvr">
+        <div class="kk kk-s en-only">The Origin File</div>
+        <div class="kk kk-s es-only">El Origen</div>
+        <h2 class="tt" style="margin-bottom:28px">
+          <span class="en-only">She built<br/>the body.<br/><em>From nothing.</em></span>
+          <span class="es-only">Construyó<br/>el cuerpo.<br/><em>Desde cero.</em></span>
+        </h2>
+        <div class="pq en-only">"If you want it, you can do it. <em>84 floors — there are no excuses.</em>"</div>
+        <div class="pq es-only">"Si lo quieres, lo puedes lograr. <em>84 pisos — no hay pretextos.</em>"</div>
+        <div class="otl">
+          <div class="tli"><div class="tly">1990</div><div class="tld"></div><div><div class="tlh en-only">Born Monterrey, Nuevo León · November 14</div><div class="tlh es-only">Nace en Monterrey, Nuevo León · 14 de noviembre</div><div class="tlb en-only">Grew up skinny, self-conscious. Fitness wasn't given — it was earned through years of discipline. This is the foundation of every program she has ever built.</div><div class="tlb es-only">Creció delgada, con inseguridades. El cuerpo no fue un regalo — fue construido con años de disciplina. Esta es la base de cada programa que ha creado.</div></div></div>
+          <div class="tli"><div class="tly">2010</div><div class="tld"></div><div><div class="tlh en-only">Opens Yanet García Models Academy · Age 20</div><div class="tlh es-only">Abre Academia Yanet García Models · A los 20 años</div><div class="tlb en-only">Santiago, Nuevo León. She starts modeling at 15 and at 20 opens her own academy — teaching others what she's learned. The entrepreneur instinct is there from day one.</div><div class="tlb es-only">Santiago, Nuevo León. Comenzó a modelar a los 15 y a los 20 abre su propia academia. El instinto empresarial estaba presente desde el primer día.</div></div></div>
+          <div class="tli"><div class="tly">2014</div><div class="tld"></div><div><div class="tlh en-only">Weather Presenter · Televisa Monterrey · Las Noticias</div><div class="tlh es-only">Presentadora del Clima · Televisa Monterrey · Las Noticias</div><div class="tlb en-only">Starts as a weather presenter. Studies journalism. The screen presence is undeniable — but the real story is what she's doing off-screen in the gym every morning.</div><div class="tlb es-only">Comienza como presentadora del clima. Estudia periodismo. La presencia en pantalla es innegable — pero la historia real ocurre cada mañana en el gimnasio.</div></div></div>
+          <div class="tli"><div class="tly">2015</div><div class="tld"></div><div><div class="tlh en-only">Global Viral Moment · 46M+ Views · Penthouse · FHM</div><div class="tlh es-only">Momento Viral Global · 46M+ Vistas · Penthouse · FHM</div><div class="tlb en-only">A weather segment clip goes global. Ozzy Man Reviews titles it "Yanet Garcia & Mexican Weather" — 46M+ YouTube views. Penthouse Mexico names her their first-ever cover. Playboy calls her "the woman who makes people want to watch the weather forecast."</div><div class="tlb es-only">Un clip del pronóstico se vuelve global. Penthouse México la elige como su primera portada. Playboy la llama "la mujer que hace que la gente quiera ver el pronóstico del tiempo."</div></div></div>
+          <div class="tli"><div class="tly">2017</div><div class="tld"></div><div><div class="tlh en-only">FHM 100 Most Beautiful · Sharknado 5 · Teletón Host 2018</div><div class="tlh es-only">FHM 100 Más Bellas · Sharknado 5 · Conductora Teletón 2018</div><div class="tlb en-only">FHM's 100 Most Beautiful Women in the World — the only Mexican on the list. Acts in Hollywood production Sharknado 5. Hosts Teletón Mexico 2018. The scope expands on every axis simultaneously.</div><div class="tlb es-only">Top 100 Más Bellas del Mundo de FHM — la única mexicana en la lista. Actúa en Sharknado 5. Conduce el Teletón México 2018. El alcance crece en todos los ejes al mismo tiempo.</div></div></div>
+          <div class="tli"><div class="tly">2020</div><div class="tld"></div><div><div class="tlh en-only">FitPlan Launch · IIN Certified Health Coach · Harvard</div><div class="tlh es-only">Lanzamiento FitPlan · Certificada IIN · Harvard</div><div class="tlb en-only">Joins FitPlan alongside Rob Gronkowski and Sommer Ray. Earns her certification as a Health Nutritional Coach at the Institute for Integrative Nutrition, New York. Attends nutrition conferences at Harvard University. The influencer becomes the expert.</div><div class="tlb es-only">Se une a FitPlan junto a Rob Gronkowski y Sommer Ray. Obtiene certificación como Health Nutritional Coach en el Institute for Integrative Nutrition, Nueva York. Asiste a conferencias de nutrición en Harvard. La influencer se convierte en experta.</div></div></div>
+          <div class="tli"><div class="tly">2025</div><div class="tld"></div><div><div class="tlh en-only">Film: "You Have Eggs, Sofia" · Katayoké · Penthouse Cover Again</div><div class="tlh es-only">Film: "You Have Eggs, Sofia" · Katayoké · Portada Penthouse</div><div class="tlb en-only">Acting career accelerating: 2025 film release and Katayoké in pre-production. Penthouse Mexico cover again — 7 years after the first. 15M Instagram. $4M+ net worth. The ecosystem still has no owned digital home. Until now.</div><div class="tlb es-only">Carrera actoral en ascenso. Penthouse México de nuevo en portada — 7 años después. 15M en Instagram. La marca global todavía no tiene un hogar digital propio. Hasta ahora.</div></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ PHILOSOPHY ═══════════ -->
+<section id="philosophy" class="sec sec-ink">
+  <div class="sw">
+    <div class="phil-grid rv">
+      <div class="phil-left">
+        <div class="kk kk-w en-only">The Philosophy</div>
+        <div class="kk kk-w es-only">La Filosofía</div>
+        <div class="big-quote en-only">"Discipline is what gets you good results — <em>not hours in the gym.</em> Know your body. Listen to it. And never stop moving."</div>
+        <div class="big-quote es-only">"La disciplina es lo que te da buenos resultados — <em>no las horas en el gimnasio.</em> Conoce tu cuerpo. Escúchalo. Y nunca dejes de moverte."</div>
+        <div class="bq-attr">— Yanet García</div>
+        <div class="stat-row">
+          <div class="sr"><div class="sr-v">15M+</div><div class="sr-l">Instagram</div></div>
+          <div class="sr"><div class="sr-v">3</div><div class="sr-l">FitPlan Programs</div></div>
+          <div class="sr"><div class="sr-v">$4M+</div><div class="sr-l">Net Worth</div></div>
+          <div class="sr"><div class="sr-v">46M</div><div class="sr-l">Viral Views</div></div>
+        </div>
+      </div>
+      <div class="phil-pillars">
+        <div class="pp"><span class="pp-icon">🏋️</span><div class="pp-h en-only">Discipline Over Duration</div><div class="pp-h es-only">Disciplina Sobre Duración</div><p class="pp-b en-only">It's not about spending hours in the gym. It's about showing up every day with intention. <strong>Focus areas: glutes, hamstrings, core.</strong> The results speak.</p><p class="pp-b es-only">No se trata de pasar horas en el gym. Se trata de presentarte cada día con intención. <strong>Áreas de enfoque: glúteos, isquiotibiales, core.</strong></p></div>
+        <div class="pp"><span class="pp-icon">🥗</span><div class="pp-h en-only">Nutrition Without Rules</div><div class="pp-h es-only">Nutrición Sin Reglas Rígidas</div><p class="pp-b en-only">No calorie counting. No restriction mentality. <strong>Fruit, veg, lean protein — and junk food on weekends.</strong> Balance is the strategy, not discipline's enemy.</p><p class="pp-b es-only">Sin contar calorías. Sin mentalidad de restricción. <strong>Fruta, verdura, proteína magra — y comida chatarra los fines de semana.</strong></p></div>
+        <div class="pp"><span class="pp-icon">🔬</span><div class="pp-h en-only">Certified Knowledge</div><div class="pp-h es-only">Conocimiento Certificado</div><p class="pp-b en-only">IIN Health Nutritional Coach, New York. Harvard nutrition conferences. <strong>The advice she gives isn't influencer opinion — it's credentialled science.</strong></p><p class="pp-b es-only">Certificada como Health Nutritional Coach, IIN Nueva York. Conferencias de nutrición en Harvard. <strong>No es opinión de influencer — es ciencia certificada.</strong></p></div>
+        <div class="pp"><span class="pp-icon">💪</span><div class="pp-h en-only">The Origin Is the Message</div><div class="pp-h es-only">El Origen Es el Mensaje</div><p class="pp-b en-only">She was skinny and self-conscious as a teenager. <strong>The transformation is real — not a starting point, but a journey with a decade of documented work behind it.</strong></p><p class="pp-b es-only">Era delgada e insegura de adolescente. <strong>La transformación es real — no fue un punto de partida, sino un viaje con una década de trabajo documentado.</strong></p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ PROGRAMS ═══════════ -->
+<section id="programs" class="sec sec-g">
+  <div class="sw">
+    <div class="prog-intro rv">
+      <div>
+        <div class="kk kk-s en-only">Training Programs</div>
+        <div class="kk kk-s es-only">Programas de Entrenamiento</div>
+        <h2 class="ttsm en-only">Your best version<br/>starts <em>here.</em></h2>
+        <h2 class="ttsm es-only">Tu mejor versión<br/>empieza <em>aquí.</em></h2>
+      </div>
+      <p class="bb en-only">Three programs built from real experience — not theory. Certified by the Institute for Integrative Nutrition. Tested on the only body that matters: hers. Now available for yours.</p>
+      <p class="bb es-only">Tres programas construidos desde la experiencia real — no desde la teoría. Certificados por el Institute for Integrative Nutrition. Probados en el único cuerpo que importa: el suyo. Ahora disponibles para el tuyo.</p>
+    </div>
+    <div class="prog-grid rv">
+      <!-- Program 1 -->
+      <div class="pgc pgc-feat">
+        <div class="pgc-tag en-only">✦ Featured Program</div>
+        <div class="pgc-tag es-only">✦ Programa Destacado</div>
+        <img class="pgc-img"
+          src="https://raw.githubusercontent.com/middleAgedCoda/I-Am-Yanet-Garcia/main/yanet-garcia%20workout%201.jpg"
+          alt="Beautiful You Program"
+          onerror="this.src='https://raw.githubusercontent.com/middleAgedCoda/I-Am-Yanet-Garcia/main/Yanet%20Garcia%20workout%2011.jpg'"/>
+        <h3 class="pgc-h">"Beautiful You"</h3>
+        <p class="pgc-b en-only">6-week transformation program. 4 sessions per week. Lower body · Upper body · Full body · Core. <strong>35-minute sessions</strong> — built for real lives, not gym rats. The program that started everything.</p>
+        <p class="pgc-b es-only">Programa de transformación de 6 semanas. 4 sesiones por semana. Tren inferior · Tren superior · Cuerpo completo · Core. <strong>Sesiones de 35 minutos</strong> — diseñado para vidas reales.</p>
+        <div class="pgc-meta">
+          <div class="pgc-m en-only">Duration<span>6 Weeks</span></div>
+          <div class="pgc-m en-only">Sessions<span>4× / Week</span></div>
+          <div class="pgc-m en-only">Level<span>All Levels</span></div>
+          <div class="pgc-m es-only">Duración<span>6 Semanas</span></div>
+          <div class="pgc-m es-only">Sesiones<span>4× / Semana</span></div>
+          <div class="pgc-m es-only">Nivel<span>Todos los Niveles</span></div>
+        </div>
+        <a href="https://www.fitplanapp.com/trainers/yanet-garcia/" target="_blank" class="pgc-cta en-only">Start on FitPlan →</a>
+        <a href="https://www.fitplanapp.com/trainers/yanet-garcia/" target="_blank" class="pgc-cta es-only">Comenzar en FitPlan →</a>
+      </div>
+      <!-- Program 2 -->
+      <div class="pgc">
+        <div class="pgc-tag en-only">Home Training</div>
+        <div class="pgc-tag es-only">Entrenamiento en Casa</div>
+        <img class="pgc-img"
+          src="https://raw.githubusercontent.com/middleAgedCoda/I-Am-Yanet-Garcia/main/yanet-garcia%20workout%202.jpg"
+          alt="Fit at Home"
+          onerror="this.src='https://raw.githubusercontent.com/middleAgedCoda/I-Am-Yanet-Garcia/main/yanet-garcia%20workout%203.jpg'"/>
+        <h3 class="pgc-h en-only">"Fit at Home Challenge"</h3>
+        <h3 class="pgc-h es-only">"Reto Fit en Casa"</h3>
+        <p class="pgc-b en-only">Bodyweight + dumbbells. No gym needed. <strong>4 sessions per week.</strong> Built during the pandemic when excuses were plentiful and she refused to let her community stop moving. "84 floors. No excuses."</p>
+        <p class="pgc-b es-only">Peso corporal + mancuernas. Sin necesidad de gimnasio. <strong>4 sesiones por semana.</strong> Creado durante la pandemia. "84 pisos. Sin pretextos."</p>
+        <div class="pgc-meta">
+          <div class="pgc-m en-only">Equipment<span>Minimal</span></div>
+          <div class="pgc-m en-only">Sessions<span>4× / Week</span></div>
+          <div class="pgc-m en-only">Focus<span>Full Body</span></div>
+          <div class="pgc-m es-only">Equipo<span>Mínimo</span></div>
+          <div class="pgc-m es-only">Sesiones<span>4× / Semana</span></div>
+          <div class="pgc-m es-only">Enfoque<span>Cuerpo Completo</span></div>
+        </div>
+        <a href="https://www.fitplanapp.com/trainers/yanet-garcia/" target="_blank" class="pgc-cta en-only">Start on FitPlan →</a>
+        <a href="https://www.fitplanapp.com/trainers/yanet-garcia/" target="_blank" class="pgc-cta es-only">Comenzar en FitPlan →</a>
+      </div>
+      <!-- Program 3 -->
+      <div class="pgc">
+        <div class="pgc-tag en-only">Core &amp; Sculpt</div>
+        <div class="pgc-tag es-only">Core y Definición</div>
+        <img class="pgc-img"
+          src="https://raw.githubusercontent.com/middleAgedCoda/I-Am-Yanet-Garcia/main/yanet-garcia%20workout%205.jpg"
+          alt="Core Method"
+          onerror="this.src='https://raw.githubusercontent.com/middleAgedCoda/I-Am-Yanet-Garcia/main/yanet-garcia%20workout%208.jpg'"/>
+        <h3 class="pgc-h en-only">"Core Method"</h3>
+        <h3 class="pgc-h es-only">"Método Core"</h3>
+        <p class="pgc-b en-only">Her signature focus: glutes, hamstrings, core. <strong>The exact routines behind the results.</strong> On-demand access. Train on your schedule — with the method that built the most-watched figure in fitness content.</p>
+        <p class="pgc-b es-only">Su enfoque de firma: glúteos, isquiotibiales, core. <strong>Las rutinas exactas detrás de los resultados.</strong> Acceso bajo demanda. Entrena con el método detrás de la figura más vista en fitness.</p>
+        <div class="pgc-meta">
+          <div class="pgc-m en-only">Access<span>On Demand</span></div>
+          <div class="pgc-m en-only">Focus<span>Glutes · Core</span></div>
+          <div class="pgc-m en-only">Style<span>Sculpt &amp; Tone</span></div>
+          <div class="pgc-m es-only">Acceso<span>Bajo Demanda</span></div>
+          <div class="pgc-m es-only">Enfoque<span>Glúteos · Core</span></div>
+          <div class="pgc-m es-only">Estilo<span>Definición</span></div>
+        </div>
+        <a href="https://www.fitplanapp.com/trainers/yanet-garcia/" target="_blank" class="pgc-cta en-only">Start on FitPlan →</a>
+        <a href="https://www.fitplanapp.com/trainers/yanet-garcia/" target="_blank" class="pgc-cta es-only">Comenzar en FitPlan →</a>
+      </div>
+    </div>
+    <!-- FitPlan bridge bar -->
+    <div class="fitplan-bar rv">
+      <div class="fb-left">
+        <div class="fb-icon">⚡</div>
+        <div>
+          <div class="fb-h en-only">All 3 programs available on FitPlan — alongside Rob Gronkowski, Sommer Ray &amp; Christian McCaffrey.</div>
+          <div class="fb-h es-only">Los 3 programas disponibles en FitPlan — junto a Rob Gronkowski, Sommer Ray y Christian McCaffrey.</div>
+          <div class="fb-s en-only">Elite trainer roster · IIN &amp; Harvard certified nutrition · Real results documented</div>
+          <div class="fb-s es-only">Trainers de élite · Nutrición certificada IIN &amp; Harvard · Resultados reales documentados</div>
+        </div>
+      </div>
+      <a href="https://www.fitplanapp.com/trainers/yanet-garcia/" target="_blank" class="bt-gold en-only">Access FitPlan →</a>
+      <a href="https://www.fitplanapp.com/trainers/yanet-garcia/" target="_blank" class="bt-gold es-only">Acceder a FitPlan →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ CREDENTIALS ═══════════ -->
+<section id="creds" class="sec sec-w">
+  <div class="sw">
+    <div class="cred-intro rv">
+      <div>
+        <div class="kk kk-s en-only">The Record</div>
+        <div class="kk kk-s es-only">El Expediente</div>
+        <h2 class="tt en-only">What fifteen<br/>years <em>built.</em></h2>
+        <h2 class="tt es-only">Lo que quince<br/>años <em>construyeron.</em></h2>
+      </div>
+      <p class="bb en-only">From a skinny teenager in Monterrey to a certified health coach with Harvard credentials, Penthouse Mexico covers and 15 million Instagram followers. Not overnight. Not by accident. By discipline — every single day.</p>
+      <p class="bb es-only">De una adolescente delgada en Monterrey a una health coach certificada con credenciales de Harvard, portadas de Penthouse México y 15 millones de seguidores en Instagram. No de la noche a la mañana. Por disciplina — cada día.</p>
+    </div>
+    <div class="cred-grid rv">
+      <div class="crc"><span class="cricon">🎓</span><div class="crn en-only">IIN Certified Health Nutritional Coach</div><div class="crn es-only">Certificada Health Nutritional Coach — IIN</div><div class="crd en-only">Institute for Integrative Nutrition, New York. <strong>She is not an influencer who gives advice — she is a certified expert with academic credentials.</strong> This distinction is the entire foundation of her fitness authority.</div><div class="crd es-only">Institute for Integrative Nutrition, Nueva York. <strong>No es una influencer que da consejos — es una experta certificada con credenciales académicas.</strong></div><div class="cry">New York · Active Certification</div></div>
+      <div class="crc"><span class="cricon">🏛️</span><div class="crn">Harvard University — Nutrition Conferences</div><div class="crd en-only">Attended advanced nutrition conferences at Harvard University. The academic foundation behind her programmes — <strong>not gym-floor intuition, but peer-reviewed nutritional science.</strong></div><div class="crd es-only">Conferencias de nutrición avanzada en Harvard University. La base académica detrás de sus programas.</div><div class="cry">Harvard University · Confirmed</div></div>
+      <div class="crc"><span class="cricon">📰</span><div class="crn">FHM 100 Most Beautiful Women · 2017</div><div class="crd en-only">For Him Magazine's 100 Most Beautiful Women in the World, 2017. <strong>The only Mexican woman on the list.</strong> A global editorial credential at the intersection of fitness, beauty and influence — not one category but all three.</div><div class="crd es-only">Top 100 Mujeres Más Bellas del Mundo de FHM. <strong>La única mujer mexicana en la lista.</strong></div><div class="cry">2017 · Only Mexican on the list</div></div>
+      <div class="crc"><span class="cricon">📸</span><div class="crn">Penthouse Mexico — Cover · 2018 &amp; 2025</div><div class="crd en-only">First-ever cover of the inaugural Penthouse Mexico edition in 2018. On the cover again in 2025. Seven years apart. <strong>The consistency of demand over a decade</strong> is its own credential — the market never stopped asking for her.</div><div class="crd es-only">Primera portada de Penthouse México en 2018. En portada de nuevo en 2025. Siete años después — la demanda nunca cesó.</div><div class="cry">2018 &amp; 2025 · Inaugural Cover</div></div>
+      <div class="crc"><span class="cricon">⚡</span><div class="crn">FitPlan Elite Trainer</div><div class="crd en-only">Elite trainer on FitPlan alongside Rob Gronkowski, Sommer Ray, Christian McCaffrey, Alex Rodriguez and Ryan Lochte. <strong>This is not an influencer partnership — this is a credentialled expert on a platform built for athletic professionals.</strong></div><div class="crd es-only">Trainer élite en FitPlan junto a Rob Gronkowski, Sommer Ray y Christian McCaffrey. No es una asociación de influencer — es una experta certificada.</div><div class="cry">FitPlan · 3 Programs · Active</div></div>
+      <div class="crc"><span class="cricon">📺</span><div class="crn en-only">Televisa Monterrey · TV Host · 2014–2019</div><div class="crn es-only">Televisa Monterrey · Conductora · 2014–2019</div><div class="crd en-only">Weather presenter on Las Noticias, then lead of Gente Regia. Five years of prime-time television. <strong>Media training, presence, and professional broadcast experience</strong> at Mexico's most-watched network.</div><div class="crd es-only">Presentadora en Las Noticias y conductora de Gente Regia. Cinco años de televisión en prime-time en Televisa Monterrey.</div><div class="cry">2014–2019 · Televisa Monterrey</div></div>
+      <div class="crc"><span class="cricon">🏆</span><div class="crn en-only">Socialiteen Healthy Influencer of the Year</div><div class="crn es-only">Influencer Saludable del Año — Socialiteen</div><div class="crd en-only">Awarded Healthy Influencer of the Year at the Socialiteen Awards, 2021. Industry recognition from the fitness and wellness media space — formally acknowledging the impact of her content on healthy lifestyle adoption.</div><div class="crd es-only">Influencer Saludable del Año, Socialiteen 2021. Reconocimiento formal del impacto de su contenido en la adopción de estilos de vida saludables.</div><div class="cry">2021 · Socialiteen Awards</div></div>
+      <div class="crc"><span class="cricon">🎬</span><div class="crn en-only">Acting — Sharknado 5 · Film Credits 2025</div><div class="crn es-only">Actuación — Sharknado 5 · Créditos 2025</div><div class="crd en-only">Sharknado 5: Global Swarming (2017, plays Chara). Spanish film Bellezonismo. 2025: "You Have Eggs, Sofia" (plays Pamela) + Katayoké in pre-production (plays Vera Mente). <strong>A fourth revenue stream that keeps accelerating.</strong></div><div class="crd es-only">Sharknado 5 (2017), Bellezonismo, "You Have Eggs, Sofia" (2025) + Katayoké en preproducción. Una cuarta fuente de ingresos en crecimiento.</div><div class="cry">2017 → 2025 → Forthcoming</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ GALLERY ═══════════ -->
+<section id="gallery" class="sec-ink" style="padding:80px 0">
+  <div class="gal-h rv">
+    <div>
+      <div class="kk kk-w en-only">Gallery</div>
+      <div class="kk kk-w es-only">Galería</div>
+      <h2 class="ttsm tt-iv en-only">Fifteen years.<br/><em>One standard.</em></h2>
+      <h2 class="ttsm tt-iv es-only">Quince años.<br/><em>Un estándar.</em></h2>
+    </div>
+    <p class="bb-iv" style="max-width:380px" class="en-only">From weather presenter to global fitness brand. Every frame is evidence of the discipline that built it all.</p>
+  </div>
+  <div class="gal-rows">
+    <!-- Row 1 — lifestyle scrolls left -->
+    <div class="gal-row">
+      <div class="gal-track-a">
+        <div class="gal-card wd"><img src="https://raw.githubusercontent.com/middleAgedCoda/I-Am-Yanet-Garcia/main/yanet-garcia-beach.jpg" alt="Beach"/></div>
+        <div class="gal-card pt"><img src="https://raw.githubusercontent.com/middleAgedCoda/I-Am-Yanet-Garcia/main/yanet-garcia-dress.jpg" alt="Dress"/></div>
+        <div class="gal-card sq"><img src="https://raw.githubusercontent.com/middleAgedCoda/I-Am-Yanet-Garcia/main/Yanet%20Garcia%20wall.jpg" alt="Wall"/></div>
+        <div class="gal-card pt"><img src="https://raw.githubusercontent.com/middleAgedCoda/I-Am-Yanet-Garcia/main/yanet-garcia-summer.jpg" alt="Summer"/></div>
+        <div class="gal-card sq"><img src="https://raw.githubusercontent.com/middleAgedCoda/I-Am-Yanet-Garcia/main/yanet-garcia-jeans.jpg" alt="Jeans"/></div>
+        <div class="gal-card pt"><img src="https://raw.githubusercontent.com/middleAgedCoda/I-Am-Yanet-Garcia/main/yanet-garcia%20hot%20yellow%20dress.jpg" alt="Yellow"/></div>
+        <div class="gal-card sq"><img src="https://raw.githubusercontent.com/middleAgedCoda/I-Am-Yanet-Garcia/main/Yanet%20Garcia%20(1).jpg" alt="Portrait"/></div>
+        <!-- dupe for loop -->
+        <div class="gal-card wd"><img src="https://raw.githubusercontent.com/middleAgedCoda/I-Am-Yanet-Garcia/main/yanet-garcia-beach.jpg" alt="Beach"/></div>
+        <div class="gal-card pt"><img src="https://raw.githubusercontent.com/middleAgedCoda/I-Am-Yanet-Garcia/main/yanet-garcia-dress.jpg" alt="Dress"/></div>
+        <div class="gal-card sq"><img src="https://raw.githubusercontent.com/middleAgedCoda/I-Am-Yanet-Garcia/main/Yanet%20Garcia%20wall.jpg" alt="Wall"/></div>
+        <div class="gal-card pt"><img src="https://raw.githubusercontent.com/middleAgedCoda/I-Am-Yanet-Garcia/main/yanet-garcia-summer.jpg" alt="Summer"/></div>
+        <div class="gal-card sq"><img src="https://raw.githubusercontent.com/middleAgedCoda/I-Am-Yanet-Garcia/main/yanet-garcia-jeans.jpg" alt="Jeans"/></div>
+        <div class="gal-card pt"><img src="https://raw.githubusercontent.com/middleAgedCoda/I-Am-Yanet-Garcia/main/yanet-garcia%20hot%20yellow%20dress.jpg" alt="Yellow"/></div>
+        <div class="gal-card sq"><img src="https://raw.githubusercontent.com/middleAgedCoda/I-Am-Yanet-Garcia/main/Yanet%20Garcia%20(1).jpg" alt="Portrait"/></div>
+      </div>
+    </div>
+    <!-- Row 2 — workout scrolls right -->
+    <div class="gal-row">
+      <div class="gal-track-b">
+        <div class="gal-card sq"><img src="https://raw.githubusercontent.com/middleAgedCoda/I-Am-Yanet-Garcia/main/yanet-garcia%20workout%201.jpg" alt="Workout 1"/></div>
+        <div class="gal-card pt"><img src="https://raw.githubusercontent.com/middleAgedCoda/I-Am-Yanet-Garcia/main/yanet-garcia%20workout%202.jpg" alt="Workout 2"/></div>
+        <div class="gal-card sq"><img src="https://raw.githubusercontent.com/middleAgedCoda/I-Am-Yanet-Garcia/main/yanet-garcia%20workout%20Red.jpg" alt="Workout Red"/></div>
+        <div class="gal-card pt"><img src="https://raw.githubusercontent.com/middleAgedCoda/I-Am-Yanet-Garcia/main/yanet-garcia%20workout%203.jpg" alt="Workout 3"/></div>
+        <div class="gal-card wd"><img src="https://raw.githubusercontent.com/middleAgedCoda/I-Am-Yanet-Garcia/main/Yanet%20Garcia%20workout%2011.jpg" alt="Workout 11"/></div>
+        <div class="gal-card pt"><img src="https://raw.githubusercontent.com/middleAgedCoda/I-Am-Yanet-Garcia/main/yanet-garcia%20workout%205.jpg" alt="Workout 5"/></div>
+        <div class="gal-card sq"><img src="https://raw.githubusercontent.com/middleAgedCoda/I-Am-Yanet-Garcia/main/Yanet%20Garcia%20workout%2012.jpg" alt="Workout 12"/></div>
+        <!-- dupe -->
+        <div class="gal-card sq"><img src="https://raw.githubusercontent.com/middleAgedCoda/I-Am-Yanet-Garcia/main/yanet-garcia%20workout%201.jpg" alt="Workout 1"/></div>
+        <div class="gal-card pt"><img src="https://raw.githubusercontent.com/middleAgedCoda/I-Am-Yanet-Garcia/main/yanet-garcia%20workout%202.jpg" alt="Workout 2"/></div>
+        <div class="gal-card sq"><img src="https://raw.githubusercontent.com/middleAgedCoda/I-Am-Yanet-Garcia/main/yanet-garcia%20workout%20Red.jpg" alt="Workout Red"/></div>
+        <div class="gal-card pt"><img src="https://raw.githubusercontent.com/middleAgedCoda/I-Am-Yanet-Garcia/main/yanet-garcia%20workout%203.jpg" alt="Workout 3"/></div>
+        <div class="gal-card wd"><img src="https://raw.githubusercontent.com/middleAgedCoda/I-Am-Yanet-Garcia/main/Yanet%20Garcia%20workout%2011.jpg" alt="Workout 11"/></div>
+        <div class="gal-card pt"><img src="https://raw.githubusercontent.com/middleAgedCoda/I-Am-Yanet-Garcia/main/yanet-garcia%20workout%205.jpg" alt="Workout 5"/></div>
+        <div class="gal-card sq"><img src="https://raw.githubusercontent.com/middleAgedCoda/I-Am-Yanet-Garcia/main/Yanet%20Garcia%20workout%2012.jpg" alt="Workout 12"/></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ WORKOUT FOCUS ═══════════ -->
+<section id="workout" class="sec sec-g2">
+  <div class="sw">
+    <div class="wk-grid">
+      <div class="rvl">
+        <div class="wk-img-stack">
+          <div class="wk-img"><img src="https://raw.githubusercontent.com/middleAgedCoda/I-Am-Yanet-Garcia/main/yanet-garcia%20workout%20Blue.jpg" alt="Workout Blue" onerror="this.src='https://raw.githubusercontent.com/middleAgedCoda/I-Am-Yanet-Garcia/main/yanet-garcia%20workout%208.jpg'"/></div>
+          <div class="wk-img"><img src="https://raw.githubusercontent.com/middleAgedCoda/I-Am-Yanet-Garcia/main/yanet-garcia%20workout%20Red.jpg" alt="Workout Red"/></div>
+          <div class="wk-img span2"><img src="https://raw.githubusercontent.com/middleAgedCoda/I-Am-Yanet-Garcia/main/Yanet%20Garcia%20workout%2012.jpg" alt="Workout 12"/></div>
+        </div>
+        <div class="wk-quote-bar">
+          <div class="wqb-text en-only">"84 floors, there are no excuses." — <em>Yanet García, 2020</em></div>
+          <div class="wqb-text es-only">"84 pisos, no hay pretextos." — <em>Yanet García, 2020</em></div>
+        </div>
+      </div>
+      <div class="rvr wk-right">
+        <div class="kk kk-s en-only">Training Focus Areas</div>
+        <div class="kk kk-s es-only">Áreas de Enfoque</div>
+        <h2 class="ttsm en-only" style="margin-bottom:24px">The method<br/>behind the <em>results.</em></h2>
+        <h2 class="ttsm es-only" style="margin-bottom:24px">El método<br/>detrás de los <em>resultados.</em></h2>
+        <div class="wk-focus-list">
+          <div class="wkf"><div class="wkf-n en-only">Glutes &amp; Hamstrings</div><div class="wkf-n es-only">Glúteos e Isquiotibiales</div><div class="wkf-bar"><div class="wkf-fill" style="width:0%" data-w="92%"></div></div><div class="wkf-pct">92%</div></div>
+          <div class="wkf"><div class="wkf-n en-only">Core Strength</div><div class="wkf-n es-only">Fuerza de Core</div><div class="wkf-bar"><div class="wkf-fill" style="width:0%" data-w="85%"></div></div><div class="wkf-pct">85%</div></div>
+          <div class="wkf"><div class="wkf-n en-only">Lower Body Power</div><div class="wkf-n es-only">Potencia Tren Inferior</div><div class="wkf-bar"><div class="wkf-fill" style="width:0%" data-w="88%"></div></div><div class="wkf-pct">88%</div></div>
+          <div class="wkf"><div class="wkf-n en-only">Full Body Conditioning</div><div class="wkf-n es-only">Acondicionamiento General</div><div class="wkf-bar"><div class="wkf-fill" style="width:0%" data-w="75%"></div></div><div class="wkf-pct">75%</div></div>
+          <div class="wkf"><div class="wkf-n en-only">Flexibility &amp; Mobility</div><div class="wkf-n es-only">Flexibilidad y Movilidad</div><div class="wkf-bar"><div class="wkf-fill" style="width:0%" data-w="68%"></div></div><div class="wkf-pct">68%</div></div>
+        </div>
+        <p class="bb" style="margin-top:24px" class="en-only">Favourite exercise: <strong>Squats.</strong> Diet approach: fruit, vegetables, lean protein — and junk food on weekends. No calorie counting. No restriction. <em>Listen to your body.</em></p>
+        <p class="bb" style="margin-top:24px" class="es-only">Ejercicio favorito: <strong>Sentadillas.</strong> Dieta: fruta, verdura, proteína magra — y comida chatarra los fines de semana. Sin contar calorías. <em>Escucha tu cuerpo.</em></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ VIRAL MOMENT ═══════════ -->
+<section id="viral">
+  <div class="viral-inner rv">
+    <div class="viral-left">
+      <div class="kk kk-w en-only">The Viral Moment</div>
+      <div class="kk kk-w es-only">El Momento Viral</div>
+      <div class="viral-number">46M</div>
+      <div class="viral-stat">46M+ <em>views.</em></div>
+      <p class="viral-label en-only">Ozzy Man Reviews · "Yanet Garcia &amp; Mexican Weather" · YouTube · The clip that went global before "going viral" was a strategy.</p>
+      <p class="viral-label es-only">Ozzy Man Reviews · "Yanet Garcia &amp; Mexican Weather" · YouTube · El clip que se volvió global antes de que "ser viral" fuera una estrategia.</p>
+    </div>
+    <div class="viral-right">
+      <div class="viral-cards">
+        <div class="vc"><div class="vc-label en-only">What happened</div><div class="vc-label es-only">Lo que pasó</div><div class="vc-val en-only">A Televisa Monterrey weather segment. June 2015. One clip. The world had never seen a weather presenter like this — because there wasn't one.</div><div class="vc-val es-only">Un segmento del clima en Televisa Monterrey. Junio 2015. Un clip. El mundo nunca había visto una presentadora así — porque no existía ninguna.</div></div>
+        <div class="vc"><div class="vc-label en-only">Global coverage</div><div class="vc-label es-only">Cobertura global</div><div class="vc-val en-only">Daily Star (UK) · The Sun · Playboy · Access Hollywood · FHM · Maxim · People · The Mirror. Every continent. Every major English-language entertainment outlet.</div><div class="vc-val es-only">Daily Star · The Sun · Playboy · Access Hollywood · FHM · Maxim · People. Todos los continentes.</div></div>
+        <div class="vc"><div class="vc-label en-only">What it became</div><div class="vc-label es-only">En qué se convirtió</div><div class="vc-val en-only">Not a 15-minute story. The beginning of a 10-year brand. The clip is still circulating. The name "La Chica del Clima" is still searched. <strong>The moment became the foundation.</strong></div><div class="vc-val es-only">No fue una historia de 15 minutos. Fue el inicio de una marca de 10 años. "La Chica del Clima" todavía se busca. <strong>El momento se convirtió en el fundamento.</strong></div></div>
+        <div class="vc"><div class="vc-label en-only">The gap it exposed</div><div class="vc-label es-only">La brecha que reveló</div><div class="vc-val en-only">46 million views and the audience lands on — Instagram. Then a Linktree. Then FitPlan. Then gone. <strong>15M followers with no owned destination. That gap is the entire business case for this site.</strong></div><div class="vc-val es-only">46 millones de vistas y la audiencia llega a — Instagram. Luego un Linktree. Luego se va. <strong>15M seguidores sin destino propio. Esa brecha es el caso de negocio completo para este sitio.</strong></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ PRESS ═══════════ -->
+<section id="press" class="sec sec-w">
+  <div class="sw">
+    <div class="rv" style="margin-bottom:8px">
+      <div class="kk kk-s en-only">Press &amp; Publications</div>
+      <div class="kk kk-s es-only">Prensa y Publicaciones</div>
+      <div class="g2" style="align-items:end">
+        <h2 class="ttsm en-only">What the<br/><em>world wrote.</em></h2>
+        <h2 class="ttsm es-only">Lo que el<br/><em>mundo escribió.</em></h2>
+        <p class="bb en-only">Every major men's and fitness publication. Every continent. A decade of sustained editorial attention — not a moment, a career.</p>
+        <p class="bb es-only">Todas las principales publicaciones de moda y fitness. Todos los continentes. Una década de atención editorial sostenida — no un momento, una carrera.</p>
+      </div>
+    </div>
+    <div class="press-logo-strip rv">
+      <div class="pltrack">
+        <div class="pllogo">Penthouse</div><div class="pllogo">FHM</div><div class="pllogo">Maxim</div>
+        <div class="pllogo">Playboy</div><div class="pllogo">H Para Hombres</div><div class="pllogo">Sociali</div>
+        <div class="pllogo">The Sun</div><div class="pllogo">Daily Star</div><div class="pllogo">People</div>
+        <div class="pllogo">Access Hollywood</div><div class="pllogo">Socialiteen</div><div class="pllogo">Zero Mag</div>
+        <div class="pllogo">Penthouse</div><div class="pllogo">FHM</div><div class="pllogo">Maxim</div>
+        <div class="pllogo">Playboy</div><div class="pllogo">H Para Hombres</div><div class="pllogo">Sociali</div>
+        <div class="pllogo">The Sun</div><div class="pllogo">Daily Star</div><div class="pllogo">People</div>
+        <div class="pllogo">Access Hollywood</div><div class="pllogo">Socialiteen</div><div class="pllogo">Zero Mag</div>
+      </div>
+    </div>
+    <div class="press-cards rv">
+      <div class="pcard"><div class="ppub">Penthouse Mexico · 2018 &amp; 2025</div><div class="phl en-only">First-ever cover of the inaugural Mexican Penthouse edition. On the cover again in 2025.</div><div class="phl es-only">Primera portada de Penthouse México. De nuevo en portada en 2025 — 7 años después.</div><p class="pbdy en-only">Selected as the face of the first-ever Penthouse Mexico edition. The publication returned to her 7 years later for a second cover — a rare distinction that speaks to the sustained quality of a brand that never went away.</p><p class="pbdy es-only">Elegida como el rostro de la primera edición de Penthouse México. La publicación regresó 7 años después para una segunda portada — una distinción rara que habla de una marca que nunca desapareció.</p></div>
+      <div class="pcard"><div class="ppub">FHM For Him Magazine · 2017</div><div class="phl en-only">100 Most Beautiful Women in the World — the only Mexican on the list.</div><div class="phl es-only">100 Mujeres Más Bellas del Mundo — la única mexicana en la lista.</div><p class="pbdy en-only">FHM's annual global list of the world's most beautiful women. 100 selections across the entire planet — and Yanet García was the only representative from Mexico. A global editorial credential that sits alongside any fitness or wellness achievement.</p><p class="pbdy es-only">Lista anual global de FHM. 100 selecciones en todo el planeta — y Yanet García fue la única representante de México.</p></div>
+      <div class="pcard"><div class="ppub">Playboy · 2015</div><div class="phl en-only">"The woman who makes people want to watch the weather forecast."</div><div class="phl es-only">"La mujer que hace que la gente quiera ver el pronóstico del tiempo."</div><p class="pbdy en-only">Playboy's description of her in 2015 remains the sharpest summary of her initial impact. It is also a fundamental misunderstanding of her — she is not a weather presenter. She never was. The discipline was always bigger than the forecast.</p><p class="pbdy es-only">La descripción de Playboy en 2015 sigue siendo el resumen más preciso de su impacto inicial. También es un malentendido fundamental de ella — nunca fue solo una presentadora del clima.</p></div>
+      <div class="pcard"><div class="ppub">The Sun &amp; Daily Star (UK) · 2015–2025</div><div class="phl en-only">"World's Hottest Weather Girl" — sustained UK media coverage for a decade.</div><div class="phl es-only">"La chica del clima más sexy del mundo" — cobertura sostenida del Reino Unido durante una década.</div><p class="pbdy en-only">British tabloid media adopted her as a running story from 2015 onward. Annual coverage across The Sun, Daily Star and The Mirror. In the UK, she remains one of the most recognized non-British personalities in the lifestyle space.</p><p class="pbdy es-only">Los medios británicos la adoptaron como historia continua desde 2015. Cobertura anual en The Sun, Daily Star y The Mirror.</p></div>
+      <div class="pcard"><div class="ppub">Ozzy Man Reviews · YouTube · 46M Views</div><div class="phl en-only">"Yanet Garcia &amp; Mexican Weather" — the clip that made her global overnight.</div><div class="phl es-only">El clip que la hizo global de la noche a la mañana.</div><p class="pbdy en-only">A single YouTube reaction video. 46 million+ views. The title became a search term. The moment became a cultural reference point. Without a single dollar of paid promotion, an Ozzy Man Reviews upload became the biggest advertising campaign a TV presenter has ever accidentally had.</p><p class="pbdy es-only">Un video de YouTube. 46 millones+ de vistas. El momento se convirtió en un punto de referencia cultural.</p></div>
+      <div class="pcard"><div class="ppub">Access Hollywood · H Para Hombres · Maxim Mexico</div><div class="phl en-only">US national television + two major print covers.</div><div class="phl es-only">Televisión nacional de EE.UU. + dos portadas importantes.</div><p class="pbdy en-only">Access Hollywood (US national) covered her story in 2015. H Para Hombres — October 2015 cover. Maxim Mexico cover. Three separate major media landmarks in the same year as the viral moment — confirming that the story was real, not just a one-day click.</p><p class="pbdy es-only">Access Hollywood la cubrió en 2015. Portada de H Para Hombres — octubre 2015. Portada de Maxim México. Tres hitos mediáticos importantes en el mismo año.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ PARTNER / CONTACT ═══════════ -->
+<section id="partner">
+  <div class="psplit">
+    <div class="pleft rvl">
+      <div class="kk kk-s en-only">Work Together</div>
+      <div class="kk kk-s es-only">Trabajemos Juntos</div>
+      <h2 class="ttsm en-only" style="margin-bottom:20px">Brand<br/><em>partnerships.</em></h2>
+      <h2 class="ttsm es-only" style="margin-bottom:20px">Alianzas<br/><em>de marca.</em></h2>
+      <p class="bb en-only" style="margin-bottom:28px">15M Instagram. 500K OnlyFans. 1M YouTube. 46M viral views. US + Latin American dual market. IIN certified. Harvard credentialled. Every partnership reaches two continents simultaneously.</p>
+      <p class="bb es-only" style="margin-bottom:28px">15M Instagram. 500K OnlyFans. 1M YouTube. 46M vistas virales. Mercado dual EE.UU. + Latinoamérica. Certificada IIN. Credenciales Harvard. Cada asociación llega a dos continentes simultáneamente.</p>
+      <div class="pform">
+        <div style="display:flex;flex-direction:column;gap:5px"><label class="pflbl en-only">Brand / Company Name</label><label class="pflbl es-only">Nombre de Marca / Empresa</label><input class="pfinp" type="text" placeholder="Your brand / Tu marca"/></div>
+        <div style="display:flex;flex-direction:column;gap:5px"><label class="pflbl en-only">Contact Name &amp; Email</label><label class="pflbl es-only">Nombre y Correo de Contacto</label><input class="pfinp" type="email" placeholder="name@brand.com"/></div>
+        <div style="display:flex;flex-direction:column;gap:5px">
+          <label class="pflbl en-only">Partnership Type / Tipo de Colaboración</label>
+          <select class="pfinp" style="cursor:none">
+            <option>Select / Seleccionar...</option>
+            <option>Brand Campaign / Campaña de Marca</option>
+            <option>Fitness Program Partnership / Programa de Fitness</option>
+            <option>Content Creation / Creación de Contenido</option>
+            <option>Social Media Campaign / Campaña Redes Sociales</option>
+            <option>Modelling / Modelaje</option>
+            <option>Speaking / Keynote</option>
+            <option>Nutrition / Wellness Product / Producto Wellness</option>
+            <option>Other / Otro</option>
+          </select>
+        </div>
+        <div style="display:flex;flex-direction:column;gap:5px"><label class="pflbl en-only">Tell me about the project / Cuéntame sobre el proyecto</label><textarea class="pfinp" style="resize:vertical;min-height:88px" placeholder="Budget, timeline, vision..."></textarea></div>
+        <button class="bt-sky" style="cursor:none;border:none;text-align:center" class="en-only">Submit Enquiry / Enviar →</button>
+      </div>
+    </div>
+    <div class="pright rvr">
+      <div class="kk kk-w en-only">Contact</div>
+      <div class="kk kk-w es-only">Contacto</div>
+      <h2 style="font-family:var(--fd);font-size:clamp(1.8rem,3.5vw,3rem);font-weight:700;color:var(--w);line-height:.92;margin-bottom:28px" class="en-only">Get in<br/><em style="font-style:italic;color:var(--sky-lt)">touch.</em></h2>
+      <h2 style="font-family:var(--fd);font-size:clamp(1.8rem,3.5vw,3rem);font-weight:700;color:var(--w);line-height:.92;margin-bottom:28px" class="es-only">Ponte en<br/><em style="font-style:italic;color:var(--sky-lt)">contacto.</em></h2>
+      <div class="pcontacts">
+        <div class="pci"><div class="pcil">Instagram</div><div class="pciv">@iamyanetgarcia · 15M+</div><div class="pcis en-only">Primary platform. US + Latin America dual audience. Brand partnership enquiries via management.</div><div class="pcis es-only">Plataforma principal. Audiencia dual EE.UU. + Latinoamérica.</div></div>
+        <div class="pci"><div class="pcil">FitPlan</div><div class="pciv">fitplanapp.com/trainers/yanet-garcia</div><div class="pcis en-only">3 certified training programs. Elite trainer roster alongside Rob Gronkowski and Christian McCaffrey. On-demand access.</div><div class="pcis es-only">3 programas certificados. Roster de trainers élite junto a Rob Gronkowski y Christian McCaffrey.</div></div>
+        <div class="pci"><div class="pcil">YouTube</div><div class="pciv">@iamyanetgarcia · 1M+ Subscribers</div><div class="pcis en-only">Workout videos, lifestyle, behind-the-scenes. Highest-converting platform for long-form fitness content.</div><div class="pcis es-only">Videos de entrenamientos, lifestyle, detrás de escena.</div></div>
+        <div class="pci"><div class="pcil en-only">Booking Agency</div><div class="pcil es-only">Agencia de Booking</div><div class="pciv">MN2S Talent Agency</div><div class="pcis en-only">mn2s.com — International talent booking agency. Personal appearances, events, brand campaigns.</div><div class="pcis es-only">mn2s.com — Agencia de talentos internacional. Apariciones personales, eventos, campañas de marca.</div></div>
+      </div>
+      <div style="margin-top:28px;display:flex;flex-wrap:wrap;gap:10px">
+        <a href="https://www.instagram.com/iamyanetgarcia" target="_blank" class="bt-out-iv en-only">Instagram ↗</a>
+        <a href="https://www.tiktok.com/@iamyanetgarcia" target="_blank" class="bt-out-iv">TikTok ↗</a>
+        <a href="https://www.youtube.com/@iamyanetgarcia" target="_blank" class="bt-out-iv">YouTube ↗</a>
+        <a href="https://www.fitplanapp.com/trainers/yanet-garcia/" target="_blank" class="bt-gold en-only">FitPlan Programs →</a>
+        <a href="https://www.fitplanapp.com/trainers/yanet-garcia/" target="_blank" class="bt-gold es-only">Programas FitPlan →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="fi">
+    <div class="ftop">
+      <div>
+        <div class="flogo">Yanet García</div>
+        <p class="fdesc">Yanet Cristal García San Miguel — Monterrey, Nuevo León, México. Fitness Coach. Model. Entrepreneur. TV Presenter. IIN Certified Health Nutritional Coach · Harvard Nutrition. FitPlan Elite Trainer. Penthouse Mexico. FHM 100 Most Beautiful. 15M Instagram. La Chica del Clima → La Marca Global. The discipline is the brand.</p>
+      </div>
+      <div class="fcol">
+        <div class="fcolh en-only">Navigate</div>
+        <div class="fcolh es-only">Navegar</div>
+        <a href="#origin">Story / Historia</a>
+        <a href="#programs">Programs / Programas</a>
+        <a href="#creds">Credentials / Credenciales</a>
+        <a href="#gallery">Gallery / Galería</a>
+        <a href="#press">Press / Prensa</a>
+      </div>
+      <div class="fcol">
+        <div class="fcolh en-only">Credentials</div>
+        <div class="fcolh es-only">Credenciales</div>
+        <a href="#creds">IIN Health Coach</a>
+        <a href="#creds">Harvard Nutrition</a>
+        <a href="#creds">FHM 100 Most Beautiful</a>
+        <a href="#creds">Penthouse Mexico</a>
+        <a href="#creds">Socialiteen HOTY 2021</a>
+      </div>
+      <div class="fcol">
+        <div class="fcolh">Connect</div>
+        <a href="https://www.instagram.com/iamyanetgarcia" target="_blank">Instagram ↗</a>
+        <a href="https://www.tiktok.com/@iamyanetgarcia" target="_blank">TikTok ↗</a>
+        <a href="https://www.youtube.com/@iamyanetgarcia" target="_blank">YouTube ↗</a>
+        <a href="https://www.fitplanapp.com/trainers/yanet-garcia/" target="_blank">FitPlan ↗</a>
+        <a href="#partner">Partner / Contacto</a>
+      </div>
+    </div>
+    <div class="fbot">
+      <div class="fcopy">© 2025 Yanet García · Monterrey, México · All rights reserved · Todos los derechos reservados.</div>
+      <a href="https://kuro-digital-acid-lime.onrender.com/" target="_blank" class="fkuro">Site by Kuro Digital ↗</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function(){
+'use strict';
+
+/* LOADER */
+(function(){
+  const f=document.getElementById('lf'),l=document.getElementById('loader');
+  if(!f||!l)return;
+  let w=0;
+  const iv=setInterval(()=>{
+    w+=Math.random()*10+5;
+    if(w>=100){w=100;clearInterval(iv);}
+    f.style.width=w+'%';
+    if(w>=100)setTimeout(()=>l.classList.add('out'),1200);
+  },140);
+})();
+
+/* CURSOR */
+(function(){
+  const d=document.getElementById('cur'),r=document.getElementById('cur-r');
+  if(!d||!r)return;
+  let mx=0,my=0,dx=0,dy=0,rx=0,ry=0;
+  document.addEventListener('mousemove',e=>{mx=e.clientX;my=e.clientY});
+  (function f(){dx+=(mx-dx)*.2;dy+=(my-dy)*.2;rx+=(mx-rx)*.1;ry+=(my-ry)*.1;
+    d.style.left=dx+'px';d.style.top=dy+'px';r.style.left=rx+'px';r.style.top=ry+'px';
+    requestAnimationFrame(f);})();
+  document.querySelectorAll('a,button,select,.crc,.pgc,.pcard,.vc,.hcb,.tli,.wkf,.pllogo').forEach(el=>{
+    el.addEventListener('mouseenter',()=>document.body.classList.add('hov'));
+    el.addEventListener('mouseleave',()=>document.body.classList.remove('hov'));
+  });
+})();
+
+/* LANG TOGGLE */
+window.setLang=function(lang){
+  document.body.className=lang;
+  document.getElementById('btn-en').classList.toggle('act',lang==='en');
+  document.getElementById('btn-es').classList.toggle('act',lang==='es');
+};
+
+/* NAV */
+const nav=document.getElementById('nav');
+window.addEventListener('scroll',()=>nav.classList.toggle('stk',scrollY>70));
+document.getElementById('hbtn').addEventListener('click',()=>document.getElementById('mob').classList.toggle('open'));
+
+/* SCROLL REVEAL */
+const io=new IntersectionObserver(entries=>entries.forEach(e=>{
+  if(e.isIntersecting){e.target.classList.add('on');io.unobserve(e.target);}
+}),{threshold:0,rootMargin:'0px 0px -28px 0px'});
+document.querySelectorAll('.rv,.rvl,.rvr').forEach(el=>{
+  if(el.getBoundingClientRect().top<innerHeight)el.classList.add('on');
+  else io.observe(el);
+});
+
+/* PROGRESS BARS — animate on scroll */
+const barObs=new IntersectionObserver(entries=>entries.forEach(e=>{
+  if(e.isIntersecting){
+    e.target.querySelectorAll('.wkf-fill').forEach(bar=>{
+      bar.style.width=bar.dataset.w||'0%';
+    });
+    barObs.unobserve(e.target);
+  }
+}),{threshold:.3});
+const wkSection=document.getElementById('workout');
+if(wkSection)barObs.observe(wkSection);
+
+})();
+</script>
+</body>
+</html>
